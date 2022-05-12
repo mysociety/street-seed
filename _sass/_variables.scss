@@ -1,0 +1,136 @@
+// Color system
+
+$white:    #fff;
+$gray-100: #FBF5E7;
+$gray-200: #F6EED9;
+$gray-300: #F0E4C6;
+$gray-400: #E8D7AC;
+$gray-500: #CBBE9F;
+$gray-600: #969083;
+$gray-700: #41545A;
+$gray-800: #1E3A46;
+$gray-900: #15282F;
+$black:    #000;
+
+$blue: #1D70B8;
+$red: #E76F51;
+$orange: #F4A261;
+$yellow: #E9C46A;
+$green: #2A9D8F;
+$teal: #264653;
+
+$primary: $red;
+$secondary: $green;
+
+// Options
+
+$enable-shadows: true;
+$enable-negative-margins: true;
+
+// Gradient
+
+// Spacing
+
+// Position
+
+// Body
+
+// Utilities maps
+
+// Links
+
+$link-color: $blue;
+
+// Paragraphs
+
+// Grid breakpoints
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+// Grid containers
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);
+
+// Grid columns
+
+// Container padding
+
+// Components
+
+// Typography
+
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$headings-font-family: Grandstander, $font-family-sans-serif;
+$headings-font-weight: 900 !default;
+
+// Tables
+
+// Buttons + Forms
+
+// Buttons
+
+// Forms
+
+$form-label-font-weight: bold;
+
+// Form validation
+
+// Z-index master list
+
+// Navs
+
+// Navbar
+
+// Dropdowns
+
+// Pagination
+
+// Placeholders
+
+// Cards
+
+// Accordion
+
+// Tooltips
+
+// Popovers
+
+// Toasts
+
+// Badges
+
+// Modals
+
+// Alerts
+
+// Progress bars
+
+// List group
+
+// Image thumbnails
+
+// Figures
+
+// Breadcrumbs
+
+// Carousel
+
+// Spinners
+
+// Close
+
+// Offcanvas
+
+// Code
