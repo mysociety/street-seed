@@ -9,36 +9,45 @@ layout: default
 <div class="py-4 py-md-5">
     <div class="container">
 
-        <h1 class="text-center"><span class="js-confetti">Woop! You’ve signed up!</span></h1>
+        <h1 class="text-center display-4 mb-4"><span class="js-confetti">Woop! You’ve signed up!</span></h1>
 
-        <p>You’re one of 5 people in your immediate area who’ve expressed an interest in making a change.</p>
+        <p class="text-center mx-auto" style="max-width: 30em;">You’re one of 5 people in your immediate area who’ve expressed an interest in making a change. <strong>So what’s next?</strong></p>
         
-        <h2>What’s next?</h2>
-        
-        <p>5 is great, but you’ll need more. Science shows getting another 5 people on board with your cause will massively increase your chance of success.</p>
+        <div class="row align-items-md-center my-5">
+            <div class="col-md-6">
+                <h2 class="mb-3">Recruit critical mass</h2>
+                <p>5 is great, but you’ll need more. Science shows getting another 5 people on board with your cause will massively increase your chance of success.</p>
+                <p class="my-4">
+                    <a class="btn btn-warning">Share on Facebook</a>
+                    <a class="btn btn-warning">Share on WhatsApp</a>
+                </p>
+                <p>But why stop there? Reach <strong>15 people</strong> to unlock free hands-on advice from our experts. Reach <strong>20 people</strong> and the RSBP will send you three free bird boxes.</p>
+            </div>
+            <div class="offset-md-1 col-md-5">
+                <img src="{{ '/static/img/social-growth-pana.svg' | relative_url }}" alt="">
+            </div>
+        </div>
 
-        <p>
-            <a href="#" class="btn btn-warning">Share on Facebook</a>
-            <a href="#" class="btn btn-warning">Share on WhatsApp</a>
-        </p>
-
-        <p>But why stop there? If you hit <strong>15 people</strong>, the RSBP will send you three free bird boxes. If you hit <strong>25 people</strong>, B&amp;Q will supply you with half-price building materials.</p>
-
-        <h3>Friends in high places</h3>
-
-        <p>Local councillors have an interest in making their areas healthy and beautiful – and they’re a great route into the council.</p>
-        
-        <p>Share this page with your local councillor, so they can help too!</p>
-
-        <p>
-            <a href="#" class="btn btn-warning">Drop them a line</a>
-        </p>
+        <div class="row align-items-md-center my-5">
+            <div class="col-md-6 offset-md-1 order-md-2">
+                <h2 class="mb-3">Friends in high places</h2>
+                <p>Local councillors have an interest in making their areas healthy and beautiful – and they’re a great route into the council.</p>
+                <p>Share this page with your local councillor, so they can help too!</p>
+                <p class="mt-4">
+                    <a class="btn btn-warning">Drop them a line</a>
+                </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="{{ '/static/img/writing-pana.svg' | relative_url }}" alt="">
+            </div>
+        </div>
 
     </div>
 </div>
 
 <div class="bg-gray-900 text-white py-5">
-    <div class="container d-flex justify-content-end">
+    <div class="container d-sm-flex align-items-center justify-content-end">
+        <a href="https://storyset.com" class="text-muted me-auto">Illustrations by Storyset</a>
         <a href="{{ '/critical-mass' | relative_url }}" class="btn btn-outline-secondary d-flex align-items-center">
             Next prototype
             {% include icons/chevron-right.html classes="ms-1" %}
