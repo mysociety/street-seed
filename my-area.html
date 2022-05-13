@@ -30,9 +30,15 @@ layout: default
             </div>
         </div>
 
-        <p class="mt-4 mb-5 text-center">
-            <a class="btn btn-lg btn-warning me-3">Share on Facebook</a>
-            <a class="btn btn-lg btn-warning">Share on WhatsApp</a>
+        <p class="mt-4 mb-5 d-sm-flex align-items-center justify-content-center">
+            <a class="btn btn-lg btn-facebook d-flex align-items-center mb-3 mb-sm-0 me-sm-3">
+                {% include icons/facebook.html classes="me-2" %}
+                Share on Facebook
+            </a>
+            <a class="btn btn-lg btn-whatsapp d-flex align-items-center">
+                {% include icons/whatsapp.html classes="me-2" %}
+                Share on WhatsApp
+            </a>
         </p>
 
         <div class="row align-items-md-center my-5">
